@@ -1,0 +1,29 @@
+@import '../Bootstrap//scss/functions';
+$primary:       #009988;
+
+@import '../Bootstrap//scss/variables';
+@import '../Bootstrap//scss/mixins';
+
+
+
+
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+) ;
+
+$custom-spacers: (
+  6: $spacer * 6,
+  7: $spacer * 12,
+  8: $spacer * 36,
+  9: $spacer * 48,
+
+) !default;
+$spacers: map-merge($spacers, $custom-spacers);
+
+@import '../Bootstrap/scss/bootstrap.scss'

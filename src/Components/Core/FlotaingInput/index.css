@@ -1,0 +1,16 @@
+.input-color {
+    border: none;
+    outline: none;
+}
+.input-color :active {
+    border:2px solid #009988;
+
+}
+.input-color:focus {
+    /* outline: #009988; */
+    border:2px solid #009988;
+    box-shadow: none;
+}
+Label {
+    color: #6c757d;
+}
