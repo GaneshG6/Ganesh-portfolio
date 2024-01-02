@@ -8,7 +8,7 @@ function NavBar({activeLink}) {
         <div className="container fixed-top mt-4">
         <nav className="navbar navbar-expand-lg bg-body-tertiary p-3 " style={{borderLeft: "6px solid #009988"}}>
         <div className="container-fluid">
-          <Link to={'/'} className="navbar-brand" href="#"><span className="fw-bold fs-4" style={{color: "#009988"}}>Ganesh</span></Link>
+          <Link to={'/'} className="navbar-brand" href="/Ganesh-portfolio"><span className="fw-bold fs-4" style={{color: "#009988"}}>Ganesh</span></Link>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
