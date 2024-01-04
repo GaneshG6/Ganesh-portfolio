@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Ganesh-portfolio/static/css/main.6934d17f.css",
+    "main.css": "/Ganesh-portfolio/static/css/main.837b7085.css",
     "main.js": "/Ganesh-portfolio/static/js/main.caecd162.js",
     "static/js/787.9c86b36b.chunk.js": "/Ganesh-portfolio/static/js/787.9c86b36b.chunk.js",
     "static/media/still-life-business-roles-with-various-mechanism-pieces.jpg": "/Ganesh-portfolio/static/media/still-life-business-roles-with-various-mechanism-pieces.eb50987a354334cbf91b.jpg",
@@ -20,12 +20,12 @@
     "static/media/icons8-insta-512.png": "/Ganesh-portfolio/static/media/icons8-insta-512.6e62550b293d3824d67b.png",
     "static/media/globe.svg": "/Ganesh-portfolio/static/media/globe.d65c9e1ce147714d6a34aa0547311bc5.svg",
     "index.html": "/Ganesh-portfolio/index.html",
-    "main.6934d17f.css.map": "/Ganesh-portfolio/static/css/main.6934d17f.css.map",
+    "main.837b7085.css.map": "/Ganesh-portfolio/static/css/main.837b7085.css.map",
     "main.caecd162.js.map": "/Ganesh-portfolio/static/js/main.caecd162.js.map",
     "787.9c86b36b.chunk.js.map": "/Ganesh-portfolio/static/js/787.9c86b36b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6934d17f.css",
+    "static/css/main.837b7085.css",
     "static/js/main.caecd162.js"
   ]
 }
