@@ -25,8 +25,8 @@ function Project() {
                         </div>
                     </div>
 
-                    <div className="mt-5 col-md-12 d-flex">
-                        <div className="col-md-6 col-12 p-5">
+                    <div className="mt-5 col-md-12 d-flex flex-wrap">
+                        <div className="col-md-6 col-12 p-md-5">
                             <div className="p-5 project-card">
                                 <div>
                                     <small className="text-primary">AI RECRUITMENT</small>
@@ -38,7 +38,7 @@ function Project() {
 
                             </div>
                         </div>
-                        <div className="col-md-6 col-12 p-5">
+                        <div className="col-md-6 col-12 p-md-5 mt-4 mt-md-0">
                             <div className="p-5  project-card">
                                 <div>
                                     <small className="text-primary">LEARN WITHOUT LIMITS</small>

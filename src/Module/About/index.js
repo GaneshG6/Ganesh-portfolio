@@ -1,10 +1,20 @@
-import React from "react";
+import React, { Suspense } from "react";
 import { NavBar } from "../NavBar";
 import { Img } from "../../Asset";
 import { Companies, Image, Information } from "../../Components";
 function About() {
+    function BigSpinner() {
+        return (
+          <div className="glimmer-panel mt-7">
+          <div className="glimmer-line" />
+          <div className="glimmer-line" />
+          <div className="glimmer-line" />
+        </div>
+        )
+      }
     return (
         <>
+        <Suspense fallback = {<BigSpinner/>}>
         <NavBar activeLink={'About'}/>
         <div className="screen-container"> 
         </div>
@@ -33,6 +43,7 @@ As a React.js developer, I specialize in building dynamic and interactive user i
         </div>
         <Information/>
         <Companies/>
+        </Suspense>
         </>
     )
 }
